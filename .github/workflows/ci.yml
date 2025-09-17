@@ -18,7 +18,7 @@ jobs:
           sudo add-apt-repository ppa:deadsnakes/ppa
           sudo apt update
           sudo apt install build-essential clang flex g++ gawk gcc-multilib gettext \
-            git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev
+            git libncurses5-dev libssl-dev python3-venv python3-dev rsync unzip zlib1g-dev
 
       - name: Checkout
         uses: actions/checkout@v3
